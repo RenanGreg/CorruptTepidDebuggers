@@ -8,19 +8,25 @@ from sklearn.metrics import mean_squared_error
 from tabulate import tabulate
 
 data = {
-  "Nome": ["Igor", "Clara", "Evelyn", "Olivia", "Tiago", "Beatriz", "Igor", "Zoe", "Igor", "Mariana", "Bruno", "Eduardo", "Vitor", "Helena", "Juliana", "Fernanda", "Evelyn",                       "Paulo", "Rafael", "Clara", "Evelyn", "Eduardo", "Xavier", "Fernanda", "Ursula", "Rafael", "Fernanda", "Fernanda", "Gabriel", "Igor"],
+  "Nome": ["Igor", "Clara", "Evelyn", "Olivia", "Tiago", "Beatriz", "Igor", "Zoe", "Igor", "Mariana", "Bruno", "Eduardo", "Vitor", "Helena", "Juliana", "Fernanda", "Evelyn",
+           "Paulo", "Rafael", "Clara", "Evelyn", "Eduardo", "Xavier", "Fernanda", "Ursula", "Rafael", "Fernanda", "Fernanda", "Gabriel", "Igor"],
   
   
   "Idade": [22, 54, 32, 25, 55, 22, 37, 35, 35, 51, 32, 50, 42, 42, 28, 24, 46, 26, 44, 31, 37, 35, 38, 25, 49, 37, 47, 59, 29, 34],
 
   
-  "Cidade": ["Florianópolis", "BeloHorizonte", "RiodeJaneiro", "BeloHorizonte", "Florianópolis", "PortoAlegre", "Curitiba", "RiodeJaneiro", "Curitiba", "SãoPaulo", "Florianópolis",                "SãoPaulo", "PortoAlegre", "PortoAlegre", "SãoPaulo", "SãoPaulo", "BeloHorizonte", "PortoAlegre", "BeloHorizonte", "SãoPaulo", "SãoPaulo", "Florianópolis",                              "SãoPaulo", "Florianópolis", "Florianópolis", "Curitiba", "SãoPaulo", "BeloHorizonte", "Florianópolis", "PortoAlegre"],
+  "Cidade": ["Florianópolis", "BeloHorizonte", "RiodeJaneiro", "BeloHorizonte", "Florianópolis", "PortoAlegre", "Curitiba", "RiodeJaneiro", "Curitiba", "SãoPaulo",
+             "Florianópolis", "SãoPaulo", "PortoAlegre", "PortoAlegre", "SãoPaulo", "SãoPaulo", "BeloHorizonte", "PortoAlegre", "BeloHorizonte", "SãoPaulo", "SãoPaulo", 
+             "Florianópolis", "SãoPaulo", "Florianópolis", "Florianópolis", "Curitiba", "SãoPaulo", "BeloHorizonte", "Florianópolis", "PortoAlegre"],
   
   
-  "Profissao": ["Programador", "Gestor", "Engenheiro", "Enfermeiro", "Advogado", "Advogado", "Arquiteto", "Gestor", "Advogado", "Médico", "Médico", "Analista", "Professor",                             "Professor", "Advogado", "Gestor", "Professor", "Professor", "Engenheiro", "Gestor", "Designer", "Programador", "Analista", "Arquiteto", "Gestor", "Analista",                           "Designer", "Gestor", "Professor", "Analista"],
+  "Profissao": ["Programador", "Gestor", "Engenheiro", "Enfermeiro", "Advogado", "Advogado", "Arquiteto", "Gestor", "Advogado", "Médico", "Médico", "Analista", "Professor",
+                "Professor", "Advogado", "Gestor", "Professor", "Professor", "Engenheiro", "Gestor", "Designer", "Programador", "Analista", "Arquiteto", "Gestor", "Analista",
+                "Designer", "Gestor", "Professor", "Analista"],
   
   
-  "Salario": [7710, 4964, 5617, 4959, 4916, 8264, 5692, 8406, 8212, 4571, 7034, 10803, 6768, 7029, 4175, 7536, 10255, 9053, 4627, 10848, 8244, 11310, 8917, 10636, 9013, 10143, 4474,                 10374, 5411, 9998],
+  "Salario": [7710, 4964, 5617, 4959, 4916, 8264, 5692, 8406, 8212, 4571, 7034, 10803, 6768, 7029, 4175, 7536, 10255, 9053, 4627, 10848, 8244, 11310, 8917, 10636, 9013,
+              10143, 4474, 10374, 5411, 9998],
 
   
   "Anos de Experiencia": [1, 34, 12, 15, 22, 22, 16, 32, 20, 18, 21, 14, 30, 34, 5, 22, 21, 23, 31, 11, 20, 5, 10, 1, 2, 5, 9, 1, 23, 5]
